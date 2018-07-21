@@ -47,7 +47,8 @@ var app = http.createServer(function(request,response){
 
         // 운송장 조회 함수 작업 필요
         //reqTracking.USPS(trackingNum);
-        reqTracking.UPS(trackingNum);
+        //reqTracking.UPS(trackingNum);
+        reqTracking.FEDEX(trackingNum);
 
         // redirection?
       });
