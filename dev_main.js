@@ -19,7 +19,7 @@ var app = http.createServer(function(request,response){
     var pathname = url.parse(_url, true).pathname;
 
     if(pathname === '/'){
-      if(queryData.id === undefined){ 
+      if(queryData.id === undefined){
         var title = 'welcome';
         var description = 'Hello Node.js';
         var html = template.HTML(title, `
@@ -46,8 +46,8 @@ var app = http.createServer(function(request,response){
         var trackingNum = post.trackingNum;
 
         // 운송장 조회 함수 작업 필요
-        reqTracking.USPS(trackingNum);
-        //reqTracking.UPS(trackingNum);
+        //reqTracking.USPS(trackingNum);
+        reqTracking.UPS(trackingNum);
 
         // redirection?
       });
