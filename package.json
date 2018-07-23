@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
     "express": "^4.16.3",
+    "helmet": "^3.13.0",
     "inherits": "^2.0.3",
     "request": "^2.87.0",
     "sanitize-html": "^1.18.2",
