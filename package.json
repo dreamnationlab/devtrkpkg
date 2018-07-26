@@ -16,6 +16,7 @@
     "express": "^4.16.3",
     "helmet": "^3.13.0",
     "inherits": "^2.0.3",
+    "mysql": "^2.16.0",
     "request": "^2.87.0",
     "sanitize-html": "^1.18.2",
     "soap": "^0.24.0"

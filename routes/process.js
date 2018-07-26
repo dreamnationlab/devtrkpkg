@@ -10,9 +10,10 @@ router.post('/tracking', function(req, res){
   //운송장번호
   var trackingNum = post.trackingNum;
   // 운송장 조회 함수 작업 필요
-  //reqTracking.USPS(trackingNum);
-  //reqTracking.UPS(trackingNum);
-  //reqTracking.FEDEX(trackingNum);
+  //reqTracking.USPS('9361289681090397739347'); // 파싱 필요
+  //reqTracking.UPS('1Z4861WWE194914215'); // 파싱 필요 test : 1Z4861WWE194914215 , live : 1Z0W37Y80301393976
+  //reqTracking.FEDEX('039813852990618'); // 라이브 적용 필요(회원가입을 위해 어카운트번호 한국에 요청해놓음)
+  reqTracking.DHL('2398427905'); // xmlpotral 가입 방법 문의 해놨음
   console.log(trackingNum);
 
   // redirection?
