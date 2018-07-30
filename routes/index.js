@@ -5,10 +5,9 @@ var router = express.Router();
 var template = require('../lib/template.js');
 
 router.get('/', function (req, res) {
-  var title = 'welcome';
   var description = 'Hello Node.js';
 
-  var html = template.HTML(title, 'index', `<div class="full_height_wrap">
+  var html = template.HTML('index', `<div class="full_height_wrap">
       <div class="logo_container container">
         <section class="logo_section">
           <div class="logo_box">
@@ -20,7 +19,7 @@ router.get('/', function (req, res) {
       </div>
 
       <div class="search_container container">
-        <form id="searchForm" action="/process/tracking" method="post">
+        <form id="searchForm" action="/tracking/result" method="post">
           <section class="search_section row">
             <div class="search_box col-sm-10">
               <div class="search_values">
