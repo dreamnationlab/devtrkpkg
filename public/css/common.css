@@ -139,8 +139,9 @@ body,html {
   text-align: left;
   width: 100%;
   color: #555;
-  background: transparent;
+  background-color: transparent !important;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .number_list .del button {
   background: 0;
@@ -149,6 +150,11 @@ body,html {
   color: #b3b3b3;
   font-weight: bold;
   cursor: pointer;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color:transparent !important;
 }
 
 .button_box {
@@ -186,7 +192,7 @@ body,html {
   border-top:1px solid #cdcdcd;
   padding-bottom:30px;
 }
-.footer.abs {
+body.index .footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -260,6 +266,13 @@ body,html {
 }
 .ad_bottom_container .ad_bottom {
   background: url("../image/ad_bottom.png") no-repeat center center;
+  background-size: cover;
+}
+.ad_mid_top img,
+.ad_mid_bottom img {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
 }
 
 .card_container {
@@ -285,6 +298,14 @@ body,html {
 .trk_top .trk_num {
   font-weight: normal;
   padding-left: 3px;
+}
+.del_track_card,
+.del_track_card:not(:disabled):not(.disabled):focus,
+.del_track_card:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  margin-top: -5px;
+  border:0;
+  outline:0;
 }
 
 .card_container .card-body {
@@ -346,7 +367,7 @@ body,html {
 
 }
 .exp_dv_time .time {
-  width: 100px;
+  width: 110px;
   font-size: 24px;
   color: #2363c3;
 }
@@ -505,6 +526,48 @@ body,html {
 .card_container .trk_open_arrow.collapsed {
   -webkit-transform:rotate(180deg);
   transform:rotate(180deg);
+}
+
+.history_container {
+  margin-top: 15px;
+  padding: 4%;
+}
+.tracking_history_list {
+  list-style: none;
+}
+.tracking_history_list li {
+  border-top: 1px solid #c8c8c8;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #2d2d2d;
+}
+.tracking_history_list li h5 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+.btns {
+  margin: 30px 0 15px 0;
+}
+.btns .copy_btn {
+  width: 175px;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: #65a3ef;
+  border-color: #4287db;
+}
+.btns .copy_btn:hover,
+.btns .copy_btn:active,
+.btns .copy_btn:focus,
+.btns .copy_btn:focus-within,
+.btns .copy_btn:visited,
+.copy_btn:not(:disabled):not(.disabled).active,
+.copy_btn:not(:disabled):not(.disabled):active,
+.show>.copy_btn.dropdown-toggle {
+  /*background-color: #587de8;*/
+  background-color: #4287db;
 }
 
 /* common */

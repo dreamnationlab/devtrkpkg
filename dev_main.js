@@ -16,7 +16,7 @@ app.use(helmet());
 app.use(compression());
 // require routes
 var indexRouter = require('./routes/index');
-var processRouter = require('./routes/tracking');
+var trackingRouter = require('./routes/tracking');
 // static files
 app.use(express.static('public'));
 // body-parser
@@ -31,7 +31,7 @@ app.get('*', function(req, res, next){
 
 // use routes
 app.use('/', indexRouter);
-app.use('/tracking', processRouter);
+app.use('/tracking', trackingRouter);
 
 
 // 404
