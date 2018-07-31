@@ -5,7 +5,7 @@ var router = express.Router();
 var template = require('../lib/template.js');
 
 router.get('/', function (req, res) {
-  var description = 'Hello Node.js';
+  //var description = 'Hello Node.js';
 
   var html = template.HTML('index', `<div class="full_height_wrap">
       <div class="logo_container container">
@@ -19,20 +19,21 @@ router.get('/', function (req, res) {
       </div>
 
       <div class="search_container container">
-        <form id="searchForm" action="/tracking/result" method="post">
+        <form id="searchForm" action="/tracking/result" method="post" onsubmit="return checkSearch();">
+          <input type="hidden" id="trackingNums" name="trackingNums" value="" />
           <section class="search_section row">
             <div class="search_box col-sm-10">
               <div class="search_values">
                 <ul class="number_list">
-                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
+                  <!-- <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li> -->
                   <!-- 30개 제한 // 영어,숫자만(30) // 대문자변환 -->
-                  <!-- <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li> -->
-                  <!-- <li><span class="numbering">2.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum2" value="" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);" /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li> -->
+                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
+                  <li><span class="numbering">2.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum2" value="" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);" /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
                 </ul>
               </div>
             </div>
             <div class="button_box col-sm-2">
-              <button class="btn" type="button" onclick="location.href='result.html'">Search</button>
+              <button class="btn" type="submit">Search</button>
             </div>
           </section>
         </form>

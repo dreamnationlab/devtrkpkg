@@ -45,15 +45,16 @@ router.post('/result', function(req, res){
 
     reqTracking.UPS('1Z4861WWE194914215', function(result){
     //     파싱 필요 test : 1Z4861WWE194914215 , live : 1Z0W37Y80301393976
-          // console.log(result);
+          console.log(result);
+          res.send(result);
           // if(result){};
 
           //파싱 함수 호출
-          parser.UPS(result, function(result){
-            template.trackingJsonToHtml(result, function(result){
-              html += result;
-            });
-          });
+          // parser.UPS(result, function(result){
+          //   template.trackingJsonToHtml(result, function(result){
+          //     html += result;
+          //   });
+          // });
     });
 
   // var finalHTML = template.HTML('result', `${html}`);
