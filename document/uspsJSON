@@ -1,0 +1,262 @@
+[In transit] CH047704311US
+{
+  "TrackInfo":{
+              "$":{"ID":"CH047704311US"},
+              "TrackSummary":"Your item departed a transfer airport in INCHEON, KOREA  REPUBLIC OF on August 13, 2018 at 4:24 pm. The item is currently in transit to the destination.",
+              "TrackDetail":[
+                            "Departed, August 12, 2018, 11:34 am, FORT WORTH, UNITED STATES",
+                            "Departed, August 11, 2018, 7:12 am, MIAMI, UNITED STATES",
+                            "Arrived, August 11, 2018, 4:08 am, MIAMI, UNITED STATES",
+                            "Processed Through Regional Facility, 08/10/2018, 7:26 pm, MIAMI FL INTERNATIONAL DISTRIBUTION CENTER",
+                            "Arrived at USPS Regional Facility, August 10, 2018, 5:47 am, MIAMI FL INTERNATIONAL DISTRIBUTION CENTER",
+                            "Arrived at Regional Facility, August 10, 2018, 5:47 am, MIAMI FL INTERNATIONAL DISTRIBUTION CENTER",
+                            "Departed USPS Regional Facility, August 9, 2018, 4:01 am, MONTGOMERY AL DISTRIBUTION CENTER",
+                            "Arrived at USPS Regional Facility, August 8, 2018, 9:14 pm, MONTGOMERY AL DISTRIBUTION CENTER",
+                            "USPS in possession of item, August 8, 2018, 4:54 pm, AUBURN, AL 36830"
+                            ]
+              }
+}
+
+{
+  "TrackInfo":{
+              "$":{"ID":"CH047704311US"},
+              "TrackSummary":{
+                              "EventTime":"4:24 pm",
+                              "EventDate":"August 13, 2018",
+                              "Event":"Departed",
+                              "EventCity":"INCHEON",
+                              "EventState":"",
+                              "EventZIPCode":"",
+                              "EventCountry":"KOREA  REPUBLIC OF","FirmName":"",
+                              "Name":"",
+                              "AuthorizedAgent":"false"
+                              },
+              "TrackDetail":[
+                            {
+                            "EventTime":"11:34 am",
+                            "EventDate":"August 12, 2018",
+                            "Event":"Departed",
+                            "EventCity":"FORT WORTH",
+                            "EventState":"",
+                            "EventZIPCode":"",
+                            "EventCountry":"UNITED STATES",
+                            "FirmName":"",
+                            "Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"7:12 am",
+                            "EventDate":"August 11, 2018",
+                            "Event":"Departed",
+                            "EventCity":"MIAMI",
+                            "EventState":"",
+                            "EventZIPCode":"",
+                            "EventCountry":"UNITED STATES",
+                            "FirmName":"",
+                            "Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"4:08 am",
+                            "EventDate":"August 11, 2018",
+                            "Event":"Arrived",
+                            "EventCity":"MIAMI",
+                            "EventState":"",
+                            "EventZIPCode":"",
+                            "EventCountry":"UNITED STATES",
+                            "FirmName":"",
+                            "Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"7:26 pm",
+                            "EventDate":"August 10, 2018",
+                            "Event":"Processed Through Regional Facility",
+                            "EventCity":"MIAMI FL INTERNATIONAL DISTRIBUTION CENTER",
+                            "EventState":"",
+                            "EventZIPCode":"","EventCountry":"","FirmName":"","Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"5:47 am","EventDate":"August 10, 2018",
+                            "Event":"Arrived at USPS Regional Facility",
+                            "EventCity":"MIAMI FL INTERNATIONAL DISTRIBUTION CENTER","EventState":"",
+                            "EventZIPCode":"","EventCountry":"","FirmName":"","Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"5:47 am","EventDate":"August 10, 2018",
+                            "Event":"Arrived at Regional Facility",
+                            "EventCity":"MIAMI FL INTERNATIONAL DISTRIBUTION CENTER","EventState":"",
+                            "EventZIPCode":"","EventCountry":"","FirmName":"","Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"4:01 am","EventDate":"August 9, 2018",
+                            "Event":"Departed USPS Regional Facility",
+                            "EventCity":"MONTGOMERY AL DISTRIBUTION CENTER","EventState":"","EventZIPCode":"",
+                            "EventCountry":"","FirmName":"","Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"9:14 pm","EventDate":"August 8, 2018",
+                            "Event":"Arrived at USPS Regional Facility",
+                            "EventCity":"MONTGOMERY AL DISTRIBUTION CENTER","EventState":"","EventZIPCode":"",
+                            "EventCountry":"","FirmName":"","Name":"",
+                            "AuthorizedAgent":"false"
+                            },
+                            {
+                            "EventTime":"4:54 pm","EventDate":"August 8, 2018","Event":"USPS in possession of item",
+                            "EventCity":"AUBURN","EventState":"AL","EventZIPCode":"36830","EventCountry":"",
+                            "FirmName":"","Name":"",
+                            "AuthorizedAgent":"false"
+                            }
+                        ]
+                    }
+}
+
+
+
+[Delivered]
+{
+  "TrackInfo":{
+              "$":{"ID":"9400109699938703606922"},
+              "TrackSummary":{
+                              "EventTime":"4:34 pm",
+                              "EventDate":"August 16, 2018",
+                              "Event":"Delivered, Front Door/Porch",
+                              "EventCity":"NEWARK",
+                              "EventState":"DE","EventZIPCode":"19711",
+                              "EventCountry":"",
+                              "FirmName":"",
+                              "Name":"",
+                              "AuthorizedAgent":"false",
+                              "DeliveryAttributeCode":"02"
+                              },
+              "TrackDetail":[
+                              {
+                              "EventTime":"10:30 am",
+                              "EventDate":"August 16, 2018",
+                              "Event":"Out for Delivery",
+                              "EventCity":"NEWARK",
+                              "EventState":"DE",
+                              "EventZIPCode":"19711",
+                              "EventCountry":"",
+                              "FirmName":"",
+                              "Name":"",
+                              "AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"10:20 am",
+                              "EventDate":"August 16, 2018",
+                              "Event":"Sorting Complete",
+                              "EventCity":"NEWARK",
+                              "EventState":"DE",
+                              "EventZIPCode":"19711","EventCountry":"",
+                              "FirmName":"","Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"9:00 am","EventDate":"August 16, 2018","Event":"Arrived at Post Office",
+                              "EventCity":"NEWARK","EventState":"DE","EventZIPCode":"19711","EventCountry":"",
+                              "FirmName":"","Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"1:09 am","EventDate":"August 16, 2018",
+                              "Event":"Departed USPS Regional Destination Facility",
+                              "EventCity":"WILMINGTON DE DISTRIBUTION CENTER","EventState":"","EventZIPCode":"",
+                              "EventCountry":"","FirmName":"","Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"1:09 am","EventDate":"August 16, 2018",
+                              "Event":"Arrived at USPS Regional Destination Facility",
+                              "EventCity":"WILMINGTON DE DISTRIBUTION CENTER","EventState":"","EventZIPCode":"",
+                              "EventCountry":"","FirmName":"","Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"8:01 am","EventDate":"August 15, 2018","Event":"Departed USPS Regional Facility",
+                              "EventCity":"TALLAHASSEE FL DISTRIBUTION CENTER","EventState":"","EventZIPCode":"",
+                              "EventCountry":"","FirmName":"","Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"9:54 pm","EventDate":"August 14, 2018",
+                              "Event":"Arrived at USPS Regional Origin Facility","EventCity":"TALLAHASSEE FL DISTRIBUTION CENTER",
+                              "EventState":"","EventZIPCode":"","EventCountry":"","FirmName":"","Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"12:56 pm",
+                              "EventDate":"August 14, 2018",
+                              "Event":"USPS in possession of item",
+                              "EventCity":"TALLAHASSEE",
+                              "EventState":"FL","EventZIPCode":"32301","EventCountry":"","FirmName":"",
+                              "Name":"","AuthorizedAgent":"false"
+                              },
+                              {
+                              "EventTime":"9:49 am","EventDate":"August 14, 2018",
+                              "Event":"Shipping Label Created, USPS Awaiting Item",
+                              "EventCity":"TALLAHASSEE",
+                              "EventState":"FL","EventZIPCode":"32303","EventCountry":"","FirmName":"",
+                              "Name":"",
+                              "AuthorizedAgent":"false",
+                              "DeliveryAttributeCode":"33"
+                              },
+                              {
+                              "EventTime":"",
+                              "EventDate":"August 14, 2018",
+                              "Event":"Pre-Shipment Info Sent to USPS, USPS Awaiting Item",
+                              "EventCity":"",
+                              "EventState":"",
+                              "EventZIPCode":"",
+                              "EventCountry":"",
+                              "FirmName":"",
+                              "Name":"",
+                              "AuthorizedAgent":"false"
+                              }
+                              ]
+                              }
+                              }
+
+
+[WrongNumber]
+{
+  "TrackInfo":{
+                "$":{"ID":"111"},
+                "Error":{
+                        "Number":"-2147219302",
+                        "Description":"The tracking number may be incorrect or the status update is not yet available. Please verify your tracking number and try again later.",
+                        "HelpFile":"",
+                        "HelpContext":""
+                        }
+              }
+}
+
+
+[A status update is not yet available]
+{
+  "TrackInfo":{
+              "$":{"ID":"9361289681090397739347"},
+              "Error":{
+                      "Number":"-2147219284",
+                      "Description":"A status update is not yet available for your package. It will be available when the shipper provides an update or the package is delivered to USPS. Check back soon. Sign up for Informed Delivery<SUP>&reg;</SUP> to receive notifications for packages addressed to you.",
+                      "HelpFile":"",
+                      "HelpContext":""
+                      }
+              }
+}
+
+
+[XML]
+<TrackResponse>
+<TrackInfo ID="9400109699938703606922">
+<TrackSummary>Your item arrived at the Post Office at 9:00 am on August 16, 2018 in NEWARK, DE 19711.</TrackSummary>
+<TrackDetail>
+Departed USPS Regional Destination Facility, 08/16/2018, 1:09 am, WILMINGTON DE DISTRIBUTION CENTER</TrackDetail>
+<TrackDetail>
+Arrived at USPS Regional Destination Facility, 08/16/2018, 1:09 am, WILMINGTON DE DISTRIBUTION CENTER</TrackDetail>
+<TrackDetail>
+Departed USPS Regional Facility, August 15, 2018, 8:01 am, TALLAHASSEE FL DISTRIBUTION CENTER</TrackDetail>
+<TrackDetail>Arrived at USPS Regional Origin Facility, 08/14/2018, 9:54 pm, TALLAHASSEE FL DISTRIBUTION CENTER</TrackDetail>
+<TrackDetail>USPS in possession of item, August 14, 2018, 12:56 pm, TALLAHASSEE, FL 32301</TrackDetail>
+<TrackDetail>Shipping Label Created, USPS Awaiting Item, August 14, 2018, 9:49 am, TALLAHASSEE, FL 32303</TrackDetail>
+<TrackDetail>Pre-Shipment Info Sent to USPS, USPS Awaiting Item, August 14, 2018</TrackDetail>
+</TrackInfo>
+</TrackResponse>

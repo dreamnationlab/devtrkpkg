@@ -1,0 +1,575 @@
+{
+  "HighestSeverity":"SUCCESS",
+  "Notifications":[
+                   {
+                    "Severity":"SUCCESS",
+                    "Source":"trck",
+                    "Code":"0",
+                    "Message":"Request was successfully processed.",
+                    "LocalizedMessage":"Request was successfully processed."
+                   }
+                  ],
+  "TransactionDetail":{"CustomerTransactionId":"Track By Number_v16"},
+  "Version":{
+             "ServiceId":"trck",
+             "Major":16,
+             "Intermediate":0,
+             "Minor":0
+            },
+  "CompletedTrackDetails":[
+                           {
+                            "HighestSeverity":"SUCCESS",
+                            "Notifications":[
+                                             {
+                                              "Severity":"SUCCESS",
+                                              "Source":"trck",
+                                              "Code":"0",
+                                              "Message":"Request was successfully processed.",
+                                              "LocalizedMessage":"Request was successfully processed."
+                                             }
+                                            ],
+                            "DuplicateWaybill":false,
+                            "MoreData":false,
+                            "TrackDetailsCount":"0",
+                            "TrackDetails":[
+                                            {
+                                             "Notification":{
+                                                             "Severity":"SUCCESS",
+                                                             "Source":"trck",
+                                                             "Code":"0",
+                                                             "Message":"Request was successfully processed.",
+                                                             "LocalizedMessage":"Request was successfully processed."
+                                                            },
+                                             "TrackingNumber":"9612019733974263675927",
+                                             "TrackingNumberUniqueIdentifier":"12018~733974263675927~FDEG",
+                                             "StatusDetail":{
+                                                             "CreationTime":"2018-05-01T15:00:00.000Z",
+                                                             "Code":"DL",
+                                                             "Description":"Delivered",
+                                                             "Location":{
+                                                                         "City":"Indianapolis",
+                                                                         "StateOrProvinceCode":"IN",
+                                                                         "CountryCode":"US",
+                                                                         "CountryName":"United States",
+                                                                         "Residential":false
+                                                                        },
+                                                             "AncillaryDetails":[
+                                                                                 {
+                                                                                  "Reason":"014",
+                                                                                  "ReasonDescription":"Left at front door.Signature Service not requested."
+                                                                                 }
+                                                                                ]
+                                                            },
+                                             "CarrierCode":"FDXG",
+                                             "OperatingCompanyOrCarrierDescription":"FedEx Ground",
+                                             "OtherIdentifiers":[
+                                                                 {
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"CUSTOMER_REFERENCE",
+                                                                                       "Value":"E-COMMERCE"
+                                                                                      }
+                                                                 },
+                                                                 {
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"INVOICE",
+                                                                                       "Value":"0312796372"
+                                                                                      }
+                                                                 },
+                                                                 {
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"PURCHASE_ORDER",
+                                                                                       "Value":"P-160-0376-2480"
+                                                                                      }
+                                                                 },
+                                                                 {
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"GROUND_SHIPMENT_ID",
+                                                                                       "Value":"733974263675927"
+                                                                                      }
+                                                                 }
+                                                                ],
+                                             "Service":{
+                                                        "Type":"GROUND_HOME_DELIVERY", //Service
+                                                        "Description":"FedEx Home Delivery",
+                                                        "ShortDescription":"HD"
+                                                       },
+                                             "PackageWeight":{
+                                                              "Units":"LB",
+                                                              "Value":"2.1"
+                                                             },
+                                             "PackageDimensions":{
+                                                                  "Length":"16",
+                                                                  "Width":"14",
+                                                                  "Height":"6",
+                                                                  "Units":"IN"
+                                                                 },
+                                             "Packaging":"Package",
+                                             "PackagingType":"YOUR_PACKAGING", // Packaging
+                                             "PhysicalPackagingType":"PACKAGE",
+                                             "PackageSequenceNumber":"1",
+                                             "PackageCount":"1",
+                                             "Payments":[
+                                                         {
+                                                          "Classification":"TRANSPORTATION",
+                                                          "Type":"SHIPPER_ACCOUNT",
+                                                          "Description":"Shipper"
+                                                         }
+                                                        ],
+                                             "ShipperAddress":{ // Shipped from
+                                                               "City":"Baltimore",
+                                                               "StateOrProvinceCode":"MD",
+                                                               "CountryCode":"US",
+                                                               "CountryName":"United States",
+                                                               "Residential":false
+                                                              },
+                                             "OriginLocationAddress":{
+                                                                      "City":"SPARROWS POINT",
+                                                                      "StateOrProvinceCode":"MD",
+                                                                      "CountryCode":"US",
+                                                                      "CountryName":"United States",
+                                                                      "Residential":false
+                                                                     },
+                                             "DatesOrTimes":[
+                                                             {
+                                                              "Type":"ACTUAL_DELIVERY",
+                                                              "DateOrTimestamp":"2018-05-02T12:20:32-04:00"
+                                                             },
+                                                             {
+                                                              "Type":"ACTUAL_PICKUP",
+                                                              "DateOrTimestamp":"2018-04-30T00:00:00"
+                                                             },
+                                                             {
+                                                              "Type":"SHIP",
+                                                              "DateOrTimestamp":"2018-04-30T00:00:00"
+                                                             },
+                                                             {
+                                                              "Type":"ACTUAL_TENDER",
+                                                              "DateOrTimestamp":"2018-04-30T00:00:00"
+                                                             },
+                                                             {
+                                                              "Type":"ANTICIPATED_TENDER",
+                                                              "DateOrTimestamp":"2018-04-29T00:00:00"
+                                                             }
+                                                            ],
+                                             "DestinationAddress":{
+                                                                   "City":"LAWRENCE",
+                                                                   "StateOrProvinceCode":"IN",
+                                                                   "CountryCode":"US",
+                                                                   "CountryName":"United States",
+                                                                   "Residential":false
+                                                                  },
+                                             "ActualDeliveryAddress":{  // Delivery to
+                                                                      "City":"Indianapolis",
+                                                                      "StateOrProvinceCode":"IN",
+                                                                      "CountryCode":"US",
+                                                                      "CountryName":"United States",
+                                                                      "Residential":false
+                                                                     },
+                                             "DeliveryAttempts":"0",
+                                             "DeliverySignatureName":"Signature not required", //Signed by
+                                             "TotalUniqueAddressCountInConsolidation":"0",
+                                             "DeliveryOptionEligibilityDetails":[
+                                                                                 {
+                                                                                  "Option":"INDIRECT_SIGNATURE_RELEASE",
+                                                                                  "Eligibility":"INELIGIBLE"
+                                                                                 },
+                                                                                 {
+                                                                                  "Option":"REDIRECT_TO_HOLD_AT_LOCATION",
+                                                                                  "Eligibility":"INELIGIBLE"
+                                                                                 },
+                                                                                 {
+                                                                                  "Option":"REROUTE",
+                                                                                  "Eligibility":"INELIGIBLE"
+                                                                                 },
+                                                                                 {
+                                                                                  "Option":"RESCHEDULE",
+                                                                                  "Eligibility":"INELIGIBLE"
+                                                                                 }
+                                                                                ],
+                                             "Events":[
+                                                       {
+                                                        "Timestamp":"2018-05-02T16:20:32.000Z",
+                                                        "EventType":"DL",
+                                                        "EventDescription":"Delivered",
+                                                        "StatusExceptionCode":"014",
+                                                        "StatusExceptionDescription":"Left at front door. Signature Service not requested.",
+                                                        "Address":{
+                                                                   "City":"Indianapolis",
+                                                                   "StateOrProvinceCode":"IN",
+                                                                   "PostalCode":"46236",
+                                                                   "CountryCode":"US",
+                                                                   "CountryName":"United States",
+                                                                   "Residential":false
+                                                                  },
+                                                        "ArrivalLocation":"DELIVERY_LOCATION"
+                                                       }
+                                                      ]
+                                            }]}]}
+
+// 445848561638
+{"HighestSeverity":"SUCCESS","Notifications":[{"Severity":"SUCCESS","Source":"trck","Code":"0","Message":"Request was successfully processed.","LocalizedMessage":"Request was successfully processed."}],"TransactionDetail":{"CustomerTransactionId":"Track By Number_v16"},"Version":{"ServiceId":"trck","Major":16,"Intermediate":0,"Minor":0},"CompletedTrackDetails":[{"HighestSeverity":"SUCCESS","Notifications":[{"Severity":"SUCCESS","Source":"trck","Code":"0","Message":"Request was successfully processed.","LocalizedMessage":"Request was successfully processed."}],"DuplicateWaybill":false,"MoreData":false,"TrackDetailsCount":"0","TrackDetails":[{"Notification":{"Severity":"SUCCESS","Source":"trck","Code":"0","Message":"Request was successfully processed.","LocalizedMessage":"Request was successfully processed."},"TrackingNumber":"445848561638","TrackingNumberUniqueIdentifier":"2458283000~445848561638~FX","StatusDetail":{"CreationTime":"2018-06-14T15:00:00.000Z","Code":"DL","Description":"Delivered","Location":{"City":"cheongju-si chungcheongbuk-do","CountryCode":"KR","CountryName":"Korea, South","Residential":false}},"CarrierCode":"FDXE","OperatingCompanyOrCarrierDescription":"FedEx Express","OtherIdentifiers":[{"PackageIdentifier":{"Type":"SHIPPER_REFERENCE","Value":"27863151"}}],"Service":{"Type":"INTERNATIONAL_PRIORITY","Description":"FedEx International Priority","ShortDescription":"IP"},"PackageWeight":{"Units":"LB","Value":"2.7"},"PackageDimensions":{"Length":"13","Width":"8","Height":"5","Units":"IN"},"ShipmentWeight":{"Units":"LB","Value":"2.7"},"Packaging":"Your Packaging","PackagingType":"YOUR_PACKAGING","PackageSequenceNumber":"1","PackageCount":"1","CreatorSoftwareId":"GSMW","SpecialHandlings":[{"Type":"DELIVER_WEEKDAY","Description":"Deliver Weekday","PaymentType":"OTHER"}],"Payments":[{"Classification":"DUTIES_AND_TAXES","Type":"RECIPIENT_ACCOUNT","Description":"Recipient"},{"Classification":"TRANSPORTATION","Type":"SHIPPER_ACCOUNT","Description":"Shipper"}],"ShipperAddress":{"City":"Osaka","CountryCode":"JP","CountryName":"Japan","Residential":false},"DatesOrTimes":[{"Type":"ACTUAL_DELIVERY","DateOrTimestamp":"2018-06-15T16:45:00+09:00"},{"Type":"ACTUAL_PICKUP","DateOrTimestamp":"2018-06-13T15:57:00+09:00"},{"Type":"SHIP","DateOrTimestamp":"2018-06-13T00:00:00"},{"Type":"ACTUAL_TENDER","DateOrTimestamp":"2018-06-13T16:40:00+09:00"}],"DestinationAddress":{"City":"cheongju-si chungcheongbuk-do","CountryCode":"KR","CountryName":"Korea, South","Residential":false},"ActualDeliveryAddress":{"City":"cheongju-si chungcheongbuk-do","CountryCode":"KR","CountryName":"Korea, South","Residential":false},"DeliveryLocationType":"RECEPTIONIST_OR_FRONT_DESK","DeliveryLocationDescription":"Receptionist/Front Desk","DeliveryAttempts":"0","DeliverySignatureName":"J. HO HONG","TotalUniqueAddressCountInConsolidation":"0","Signature":{"Notifications":[{"Severity":"ERROR","Source":"trck","Code":"4550","Message":"Signature images are not available for display for shipments to this country.","LocalizedMessage":"Signature images are not available for display for shipments to this country."}]},"NotificationEventsAvailable":["ON_DELIVERY"],"DeliveryOptionEligibilityDetails":[{"Option":"INDIRECT_SIGNATURE_RELEASE","Eligibility":"INELIGIBLE"},{"Option":"REDIRECT_TO_HOLD_AT_LOCATION","Eligibility":"INELIGIBLE"},{"Option":"REROUTE","Eligibility":"INELIGIBLE"},{"Option":"RESCHEDULE","Eligibility":"INELIGIBLE"}],"Events":[{"Timestamp":"2018-06-15T07:45:00.000Z","EventType":"DL","EventDescription":"Delivered","Address":{"City":"cheongju-si chungcheongbuk-do","PostalCode":"28612","CountryCode":"KR","CountryName":"Korea, South","Residential":false},"ArrivalLocation":"DELIVERY_LOCATION"}]}]}]}
+
+//782146633035
+'{
+  "HighestSeverity":"SUCCESS",
+  "Notifications":[{
+                    "Severity":"SUCCESS",
+                    "Source":"trck",
+                    "Code":"0",
+                    "Message":"Request was successfully processed.",
+                    "LocalizedMessage":"Request was successfully processed."
+                  }],
+  "TransactionDetail":{"CustomerTransactionId":"Track By Number_v16"},
+  "Version":{
+             "ServiceId":"trck",
+             "Major":16,"Intermediate":0,
+             "Minor":0
+            },
+  "CompletedTrackDetails":[{
+                            "HighestSeverity":"SUCCESS",
+                            "Notifications":[{
+                                              "Severity":"SUCCESS",
+                                              "Source":"trck",
+                                              "Code":"0",
+                                              "Message":"Request was successfully processed.",
+                                              "LocalizedMessage":"Request was successfully processed."
+                                            }],
+                            "DuplicateWaybill":false,
+                            "MoreData":false,
+                            "TrackDetailsCount":"0",
+                            "TrackDetails":[{
+                                             "Notification":{
+                                                             "Severity":"SUCCESS",
+                                                             "Source":"trck",
+                                                             "Code":"0",
+                                                             "Message":"Request was successfully processed.",
+                                                             "LocalizedMessage":"Request was successfully processed."
+                                                            },
+                                             "TrackingNumber":"782146633035",
+                                             "TrackingNumberUniqueIdentifier":"2458335000~782146633035~FX",
+                                             "StatusDetail":{
+                                                             "CreationTime":"2018-08-09T15:00:00.000Z",
+                                                             "Code":"CC",
+                                                             "Description":"International shipment release",
+                                                             "Location":{
+                                                                         "City":"INCHEON-SI JUNG-GU",
+                                                                         "CountryCode":"KR",
+                                                                         "CountryName":"Korea, South",
+                                                                         "Residential":false
+                                                                        }
+                                                            },
+                                             "CarrierCode":"FDXE",
+                                             "OperatingCompanyOrCarrierDescription":"FedEx Express",
+                                             "OtherIdentifiers":[{
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"INVOICE",
+                                                                                       "Value":"2402185"
+                                                                                      }
+                                                                 },
+                                                                 {
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"PURCHASE_ORDER",
+                                                                                       "Value":"2402185"
+                                                                                      }
+                                                                 },
+                                                                 {
+                                                                  "PackageIdentifier":{
+                                                                                       "Type":"SHIPPER_REFERENCE",
+                                                                                       "Value":"12000019160"
+                                                                                      }
+                                                                 }
+                                                                ],
+                                             "Service":{
+                                                        "Type":"INTERNATIONAL_PRIORITY",
+                                                        "Description":"FedEx International Priority",
+                                                        "ShortDescription":"IP"
+                                                       },
+                                             "PackageWeight":{
+                                                              "Units":"LB",
+                                                              "Value":"3.6"
+                                                             },
+                                             "ShipmentWeight":{
+                                                               "Units":"LB",
+                                                               "Value":"3.6"
+                                                              },
+                                             "Packaging":"Your Packaging",
+                                             "PackagingType":"YOUR_PACKAGING",
+                                             "PackageSequenceNumber":"1",
+                                             "PackageCount":"1",
+                                             "CreatorSoftwareId":"WSXI",
+                                             "SpecialHandlings":[{
+                                                                  "Type":"DELIVER_WEEKDAY",
+                                                                  "Description":"Deliver Weekday",
+                                                                  "PaymentType":"OTHER"
+                                                                 },
+                                                                 {
+                                                                  "Type":"WEEKEND_PICKUP",
+                                                                  "Description":"Weekend Pick-Up",
+                                                                  "PaymentType":"OTHER"
+                                                                }],
+                                             "Payments":[{
+                                                          "Classification":"DUTIES_AND_TAXES",
+                                                          "Type":"RECIPIENT_ACCOUNT",
+                                                          "Description":"Recipient"
+                                                         },
+                                                         {
+                                                          "Classification":"TRANSPORTATION",
+                                                          "Type":"SHIPPER_ACCOUNT",
+                                                          "Description":"Shipper"
+                                                         }],
+                                             "ShipperAddress":{
+                                                               "City":"NORTH TYNESIDE",
+                                                               "StateOrProvinceCode":"SH",
+                                                               "CountryCode":"GB",
+                                                               "CountryName":"United Kingdom/Channel Islands",
+                                                               "Residential":false
+                                                              },
+                                             "DatesOrTimes":[{
+                                                              "Type":"ESTIMATED_DELIVERY", // 예상 도
+                                                              "DateOrTimestamp":"2018-08-10T00:00:00"
+                                                             },
+                                                             {
+                                                              "Type":"ACTUAL_PICKUP",
+                                                              "DateOrTimestamp":"2018-08-06T13:41:00+01:00"
+                                                             },
+                                                             {
+                                                              "Type":"SHIP",
+                                                              "DateOrTimestamp":"2018-08-07T00:00:00"
+                                                             },
+                                                             {
+                                                              "Type":"ACTUAL_TENDER",
+                                                              "DateOrTimestamp":"2018-08-06T13:41:00+01:00"
+                                                            }],
+                                             "DestinationAddress":{
+                                                                   "City":"CHEONAN-SI",
+                                                                   "CountryCode":"KR",
+                                                                   "CountryName":"Korea, South",
+                                                                   "Residential":false
+                                                                  },
+                                                                  "DeliveryAttempts":"0",
+                                                                  "TotalUniqueAddressCountInConsolidation":"0",
+                                                                  "Signature":{
+                                                                               "Notifications":[{
+                                                                                                 "Severity":"ERROR",
+                                                                                                 "Source":"trck",
+                                                                                                 "Code":"4550",
+                                                                                                 "Message":"Signature images are not available for display for shipments to this country.",
+                                                                                                 "LocalizedMessage":"Signature images are not available for display for shipments to this country."
+                                                                                                }
+                                                                                               ]
+                                                                              },
+                                                                  "NotificationEventsAvailable":[
+                                                                                                 "ON_DELIVERY",
+                                                                                                 "ON_EXCEPTION",
+                                                                                                 "ON_ESTIMATED_DELIVERY"
+                                                                                                ],
+                                                                  "DeliveryOptionEligibilityDetails":[{
+                                                                                                       "Option":"INDIRECT_SIGNATURE_RELEASE",
+                                                                                                       "Eligibility":"INELIGIBLE"
+                                                                                                      },
+                                                                                                      {
+                                                                                                       "Option":"REDIRECT_TO_HOLD_AT_LOCATION",
+                                                                                                       "Eligibility":"INELIGIBLE"
+                                                                                                      },
+                                                                                                      {
+                                                                                                       "Option":"REROUTE",
+                                                                                                       "Eligibility":"INELIGIBLE"
+                                                                                                      },
+                                                                                                      {
+                                                                                                       "Option":"RESCHEDULE",
+                                                                                                       "Eligibility":"INELIGIBLE"}
+                                                                                                     ],
+                                                                 "Events":[{
+                                                                            "Timestamp":"2018-08-10T04:50:00.000Z",
+                                                                            "EventType":"CC",
+                                                                            "EventDescription":"International shipment release - Import",
+                                                                            "Address":{
+                                                                                       "City":"INCHEON-SI JUNG-GU",
+                                                                                       "PostalCode":"22381",
+                                                                                       "CountryCode":"KR",
+                                                                                       "CountryName":"Korea, South",
+                                                                                       "Residential":false
+                                                                                      },
+                                                                            "ArrivalLocation":"FEDEX_FACILITY"
+                                                                            }
+                                                                           ]}]}]}'
+
+
+/// 운송장 번호 틀렸을 때
+'{"HighestSeverity":"SUCCESS","Notifications":[{"Severity":"SUCCESS","Source":"trck","Code":"0","Message":"Request was successfully processed.","LocalizedMessage":"Request was successfully processed."}],"TransactionDetail":{"CustomerTransactionId":"Track By Number_v16"},"Version":{"ServiceId":"trck","Major":16,"Intermediate":0,"Minor":0},"CompletedTrackDetails":[{"HighestSeverity":"SUCCESS","Notifications":[{"Severity":"SUCCESS","Source":"trck","Code":"0","Message":"Request was successfully processed.","LocalizedMessage":"Request was successfully processed."}],"DuplicateWaybill":false,"MoreData":false,"TrackDetailsCount":"0","TrackDetails":[{"Notification":{"Severity":"ERROR","Source":"trck","Code":"6035","Message":"Invalid tracking numbers.   Please check the following numbers and resubmit.","LocalizedMessage":"Invalid tracking numbers.   Please check the following numbers and resubmit."},"TrackingNumber":"9.612019733974263e+21","StatusDetail":{"Location":{"Residential":false}},"PackageSequenceNumber":"0","PackageCount":"0","DeliveryAttempts":"0","TotalUniqueAddressCountInConsolidation":"0","DeliveryOptionEligibilityDetails":[{"Option":"INDIRECT_SIGNATURE_RELEASE","Eligibility":"INELIGIBLE"},{"Option":"REDIRECT_TO_HOLD_AT_LOCATION","Eligibility":"INELIGIBLE"},{"Option":"REROUTE","Eligibility":"INELIGIBLE"},{"Option":"RESCHEDULE","Eligibility":"INELIGIBLE"}]}]}]}'
+
+
+
+
+
+
+
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <TrackReply xmlns="http://fedex.com/ws/track/v14">
+         <HighestSeverity>SUCCESS</HighestSeverity>
+         <Notifications>
+            <Severity>SUCCESS</Severity>
+            <Source>trck</Source>
+            <Code>0</Code>
+            <Message>Request was successfully processed.</Message>
+            <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+         </Notifications>
+         <TransactionDetail>
+            <CustomerTransactionId>Track By Number_v14</CustomerTransactionId>
+            <Localization>
+               <LanguageCode>EN</LanguageCode>
+               <LocaleCode>US</LocaleCode>
+            </Localization>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>trck</ServiceId>
+            <Major>14</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <CompletedTrackDetails>
+            <HighestSeverity>SUCCESS</HighestSeverity>
+            <Notifications>
+               <Severity>SUCCESS</Severity>
+               <Source>trck</Source>
+               <Code>0</Code>
+               <Message>Request was successfully processed.</Message>
+               <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+            </Notifications>
+            <DuplicateWaybill>false</DuplicateWaybill>
+            <MoreData>false</MoreData>
+            <TrackDetailsCount>0</TrackDetailsCount>
+            <TrackDetails>
+               <Notification>
+                  <Severity>SUCCESS</Severity>
+                  <Source>trck</Source>
+                  <Code>0</Code>
+                  <Message>Request was successfully processed.</Message>
+                  <LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+               </Notification>
+               <TrackingNumber>794887075005</TrackingNumber>
+               <TrackingNumberUniqueIdentifier>2457710000~794887075005~FX</TrackingNumberUniqueIdentifier>
+               <StatusDetail>
+                  <CreationTime>2016-11-17T00:00:00</CreationTime>
+                  <Code>OC</Code>
+                  <Description>Shipment information sent to FedEx</Description>
+                  <Location>
+                     <Residential>false</Residential>
+                  </Location>
+                  <AncillaryDetails>
+                     <Reason>IN001</Reason>
+                     <ReasonDescription>Please check back later for shipment status or subscribe for e-mail notifications</ReasonDescription>
+                  </AncillaryDetails>
+               </StatusDetail>
+               <ServiceCommitMessage>Shipping label has been created. The status will be updated when shipment begins to travel.</ServiceCommitMessage>
+               <DestinationServiceArea>OC</DestinationServiceArea>
+               <CarrierCode>FDXE</CarrierCode>
+               <OperatingCompanyOrCarrierDescription>FedEx Express</OperatingCompanyOrCarrierDescription>
+               <OtherIdentifiers>
+                  <PackageIdentifier>
+                     <Type>INVOICE</Type>
+                     <Value>IO10570705</Value>
+                  </PackageIdentifier>
+               </OtherIdentifiers>
+               <OtherIdentifiers>
+                  <PackageIdentifier>
+                     <Type>PURCHASE_ORDER</Type>
+                     <Value>PO10570705</Value>
+                  </PackageIdentifier>
+               </OtherIdentifiers>
+               <OtherIdentifiers>
+                  <PackageIdentifier>
+                     <Type>SHIPPER_REFERENCE</Type>
+                     <Value>CUSTREF10570705</Value>
+                  </PackageIdentifier>
+               </OtherIdentifiers>
+               <Service>
+                  <Type>PRIORITY_OVERNIGHT</Type>
+                  <Description>FedEx Priority Overnight</Description>
+                  <ShortDescription>PO</ShortDescription>
+               </Service>
+               <PackageWeight>
+                  <Units>LB</Units>
+                  <Value>60.0</Value>
+               </PackageWeight>
+               <PackageDimensions>
+                  <Length>12</Length>
+                  <Width>12</Width>
+                  <Height>12</Height>
+                  <Units>IN</Units>
+               </PackageDimensions>
+               <ShipmentWeight>
+                  <Units>LB</Units>
+                  <Value>60.0</Value>
+               </ShipmentWeight>
+               <Packaging>Your Packaging</Packaging>
+               <PackagingType>YOUR_PACKAGING</PackagingType>
+               <PackageSequenceNumber>1</PackageSequenceNumber>
+               <PackageCount>1</PackageCount>
+               <SpecialHandlings>
+                  <Type>DELIVER_WEEKDAY</Type>
+                  <Description>Deliver Weekday</Description>
+                  <PaymentType>OTHER</PaymentType>
+               </SpecialHandlings>
+               <Payments>
+                  <Classification>TRANSPORTATION</Classification>
+                  <Type>SHIPPER_ACCOUNT</Type>
+                  <Description>Shipper</Description>
+               </Payments>
+               <ShipperAddress>
+                  <City>COLORADO SPRINGS</City>
+                  <StateOrProvinceCode>CO</StateOrProvinceCode>
+                  <CountryCode>US</CountryCode>
+                  <CountryName>United States</CountryName>
+                  <Residential>false</Residential>
+               </ShipperAddress>
+               <DatesOrTimes>
+                  <Type>ANTICIPATED_TENDER</Type>
+                  <DateOrTimestamp>2016-11-17T00:00:00</DateOrTimestamp>
+               </DatesOrTimes>
+               <DestinationAddress>
+                  <City>DENVER</City>
+                  <StateOrProvinceCode>CO</StateOrProvinceCode>
+                  <CountryCode>US</CountryCode>
+                  <CountryName>United States</CountryName>
+                  <Residential>false</Residential>
+               </DestinationAddress>
+               <DeliveryAttempts>0</DeliveryAttempts>
+               <TotalUniqueAddressCountInConsolidation>0</TotalUniqueAddressCountInConsolidation>
+               <NotificationEventsAvailable>ON_DELIVERY</NotificationEventsAvailable>
+               <NotificationEventsAvailable>ON_EXCEPTION</NotificationEventsAvailable>
+               <NotificationEventsAvailable>ON_ESTIMATED_DELIVERY</NotificationEventsAvailable>
+               <NotificationEventsAvailable>ON_TENDER</NotificationEventsAvailable>
+               <DeliveryOptionEligibilityDetails>
+                  <Option>INDIRECT_SIGNATURE_RELEASE</Option>
+                  <Eligibility>INELIGIBLE</Eligibility>
+               </DeliveryOptionEligibilityDetails>
+               <DeliveryOptionEligibilityDetails>
+                  <Option>REDIRECT_TO_HOLD_AT_LOCATION</Option>
+                  <Eligibility>INELIGIBLE</Eligibility>
+               </DeliveryOptionEligibilityDetails>
+               <DeliveryOptionEligibilityDetails>
+                  <Option>REROUTE</Option>
+                  <Eligibility>INELIGIBLE</Eligibility>
+               </DeliveryOptionEligibilityDetails>
+               <DeliveryOptionEligibilityDetails>
+                  <Option>RESCHEDULE</Option>
+                  <Eligibility>INELIGIBLE</Eligibility>
+               </DeliveryOptionEligibilityDetails>
+               <Events>
+                  <Timestamp>2016-11-17T03:13:01-06:00</Timestamp>
+                  <EventType>OC</EventType>
+                  <EventDescription>Shipment information sent to FedEx</EventDescription>
+                  <Address>
+                     <Residential>false</Residential>
+                  </Address>
+                  <ArrivalLocation>CUSTOMER</ArrivalLocation>
+               </Events>
+            </TrackDetails>
+         </CompletedTrackDetails>
+      </TrackReply>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

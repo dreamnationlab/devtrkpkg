@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
         <section class="logo_section">
           <div class="logo_box">
             <h1 class="logo txt-c" title="TrackingPKG">
-              <a href="" class="logo_link"><img src="image/logo.png" class="logo_image" /></a>
+              <a href="" class="logo_link"><img src="/image/logo.png" class="logo_image" /></a>
             </h1>
           </div>
         </section>
@@ -27,8 +27,8 @@ router.get('/', function (req, res) {
                 <ul class="number_list">
                   <!-- <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li> -->
                   <!-- 30개 제한 // 영어,숫자만(30) // 대문자변환 -->
-                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
-                  <li><span class="numbering">2.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum2" value="" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);" /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
+                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);"/></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
+
                 </ul>
               </div>
             </div>

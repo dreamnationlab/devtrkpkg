@@ -1,0 +1,341 @@
+{
+ "req:TrackingResponse":{
+                         "$":{
+                              "xmlns:req":"http://www.dhl.com",
+                              "xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance",
+                              "xsi:schemaLocation":"http://www.dhl.com TrackingResponse.xsd"
+                             },
+                         "Response":[{
+                                      "ServiceHeader":[{
+                                                        "MessageTime":["2018-08-10T14:13:18+01:00"],
+                                                        "MessageReference":["TrackingRequest_Single_AWB__"],
+                                                        "SiteID":["v62_aZHhSPLXzn"]
+                                                       }]
+                                     }],
+                         "AWBInfo":[{
+                                     "AWBNumber":["2398427905"],
+                                     "Status":[{
+                                                "ActionStatus":["success"]
+                                              }],
+                                     "ShipmentInfo":[{
+                                                      "OriginServiceArea":[{
+                                                                            "ServiceAreaCode":["BHX"],
+                                                                            "Description":["BIRMINGHAM-GBR"]
+                                                                          }],
+                                                      "DestinationServiceArea":[{
+                                                                                 "ServiceAreaCode":["SEL"],
+                                                                                 "Description":["SEOUL-KOR"]
+                                                                               }],
+                                                      "ShipperName":["RAPHA RACING LTD"],
+                                                      "ShipperAccountNumber":["184853919"],
+                                                      "ConsigneeName":["AHN SE JIN"],
+                                                      "ShipmentDate":["2018-07-04T00:00:00"],
+                                                      "Pieces":["1"],
+                                                      "Weight":["1.2"],
+                                                      "WeightUnit":["K"],
+                                                      "GlobalProductCode":["P"],
+                                                      "ShipmentDesc":["Cycling Apparel"],
+                                                      "DlvyNotificationFlag":["N"],
+                                                      "Shipper":[{
+                                                                  "City":["WELLESBOURNE"],
+                                                                  "PostalCode":["CV35 9JY"],
+                                                                  "CountryCode":["GB"]
+                                                                }],
+                                                      "Consignee":[{
+                                                                    "City":["SEOUL"],
+                                                                    "PostalCode":["02036"],
+                                                                    "CountryCode":["KR"]
+                                                                  }],
+                                                      "ShipperReference":[{
+                                                                           "ReferenceID":["31101027"]
+                                                                         }],
+                                                      "ShipmentEvent":[{
+                                                                        "Date":["2018-07-04"],
+                                                                        "Time":["19:08:30"],
+                                                                        "ServiceEvent":[{
+                                                                                         "EventCode":["PL"],
+                                                                                         "Description":["Processed at BIRMINGHAM-GBR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["BHX"],
+                                                                                        "Description":["BIRMINGHAM-GBR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-04"],
+                                                                        "Time":["19:08:58"],
+                                                                        "ServiceEvent":[{
+                                                                                         "EventCode":["DF"],
+                                                                                         "Description":["Departed Facility in BIRMINGHAM-GBR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["BHX"],
+                                                                                        "Description":["BIRMINGHAM-GBR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-04"],
+                                                                        "Time":["19:52:44"],
+                                                                        "ServiceEvent":[{
+                                                                                         "EventCode":["AF"],
+                                                                                         "Description":["Arrived at Sort Facility EAST MIDLANDS-GBR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["EMA"],
+                                                                                        "Description":["EAST MIDLANDS-GBR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-04"],
+                                                                        "Time":["22:00:01"],
+                                                                        "ServiceEvent":[{
+                                                                                         "EventCode":["PL"],
+                                                                                         "Description":["Processed at EAST MIDLANDS-GBR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["EMA"],
+                                                                                        "Description":["EAST MIDLANDS-GBR"]
+                                                                                       }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-05"],
+                                                                        "Time":["02:27:10"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["DF"],
+                                                                                        "Description":["Departed Facility in EAST MIDLANDS-GBR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["EMA"],
+                                                                                        "Description":["EAST MIDLANDS-GBR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-05"],
+                                                                        "Time":["07:25:58"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["TR"],
+                                                                                        "Description":["Transferred through LEIPZIG-DEU"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["LEJ"],
+                                                                                        "Description":["LEIPZIG-DEU"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-05"],
+                                                                        "Time":["07:27:13"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["DF"],
+                                                                                        "Description":["Departed Facility in LEIPZIG-DEU"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["LEJ"],
+                                                                                        "Description":["LEIPZIG-DEU"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-05"],
+                                                                        "Time":["15:30:23"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["RR"],
+                                                                                        "Description":["Customs status updated"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["07:17:53"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["AF"],
+                                                                                        "Description":["Arrived at Sort Facility INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["07:32:33"],
+                                                                        "ServiceEvent":[{
+                                                                                         "EventCode":["IC"],
+                                                                                         "Description":["Processed for clearance at INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["07:32:33"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["UD"],
+                                                                                        "Description":["Uncontrollable Clearance Delay"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "EventRemarks":[{
+                                                                                        "FurtherDetails":["The shipment is pending completion of customs inspection."],
+                                                                                        "NextSteps":["The status will be updated following customs inspection. A DHL representative shal attempt to contact the importer if additional requirements are necessary."]
+                                                                                       }],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["07:35:28"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["CR"],
+                                                                                        "Description":["Clearance processing complete at INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["07:36:08"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["RR"],
+                                                                                        "Description":["Customs status updated"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["08:25:12"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["PL"],
+                                                                                        "Description":["Processed at INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["09:47:58"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["DF"],
+                                                                                        "Description":["Departed Facility in INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["ICN"],
+                                                                                        "Description":["INCHEON OUTSKIRT OF SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["10:35:49"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["AR"],
+                                                                                        "Description":["Arrived at Delivery Facility in SEOUL-KOR"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["SEL"],
+                                                                                        "Description":["SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["12:00:49"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["WC"],
+                                                                                        "Description":["With delivery courier"]
+                                                                                       }],
+                                                                        "Signatory":[""],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["SEL"],
+                                                                                        "Description":["SEOUL-KOR"]
+                                                                                      }]
+                                                                       },
+                                                                       {
+                                                                        "Date":["2018-07-06"],
+                                                                        "Time":["13:00:18"],
+                                                                        "ServiceEvent":[{
+                                                                                        "EventCode":["OK"],
+                                                                                        "Description":["Delivered - Signed for by"]
+                                                                                       }],
+                                                                        "Signatory":["GOF SAE JIN AHN"],
+                                                                        "ServiceArea":[{
+                                                                                        "ServiceAreaCode":["SEL"],
+                                                                                        "Description":["SEOUL-KOR"]
+                                                                                      }]
+                                                                      }]
+                                                                    }]
+                                                                  }],
+                                                              "LanguageCode":["en"]
+                                                            }}
+
+
+                                                            {
+
+
+///// 운송장번호 자리수 넘어갈때
+<req:ShipmentTrackingErrorResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com track-err-res.xsd">
+     <Response>
+         <ServiceHeader>
+             <MessageTime>2018-08-12T12:32:30+01:00</MessageTime>
+         </ServiceHeader>
+         <Status>
+             <ActionStatus>Failure</ActionStatus>
+             <Condition>
+                 <ConditionCode>111</ConditionCode>
+                 <ConditionData> Error Parsing incoming request XML
+                     Error: Datatype error: In element
+                     &apos;AWBNumber&apos; : Value
+                     &apos;1Z1A48T90315691657&apos; with length
+                     &apos;18&apos; exceeds maximum length facet of
+                     &apos;11&apos;.. at line 12, column 52</ConditionData>
+             </Condition>
+         </Status>
+     </Response>
+ </req:ShipmentTrackingErrorResponse> 
+
+
+///// 운송장번호 없을 때
+<req:TrackingResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com TrackingResponse.xsd">
+     <Response>
+         <ServiceHeader>
+             <MessageTime>2018-08-12T12:36:55+01:00</MessageTime>
+             <MessageReference>TrackingRequest_Single_AWB__</MessageReference>
+             <SiteID>v62_Zxp1mSUtYe</SiteID>
+         </ServiceHeader>
+     </Response>
+     <AWBInfo>
+         <AWBNumber>2398427906</AWBNumber>
+         <Status>
+             <ActionStatus>No Shipments Found</ActionStatus>
+             <Condition>
+                 <ConditionCode>209</ConditionCode>
+                 <ConditionData>No Shipments Found for AWBNumber 2398427906</ConditionData>
+             </Condition>
+         </Status>
+     </AWBInfo>
+     <LanguageCode>en</LanguageCode>
+ </req:TrackingResponse>

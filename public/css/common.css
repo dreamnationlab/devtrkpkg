@@ -261,12 +261,12 @@ body.index .footer {
 .ad_bottom_container .ad_bottom  {
   width: 100%;
   height:178px;
-  background: url("../image/ad_top.png") no-repeat center center;
-  background-size: cover;
+  /* background: url("../image/ad_top.png") no-repeat center center;
+  background-size: cover; */
 }
 .ad_bottom_container .ad_bottom {
-  background: url("../image/ad_bottom.png") no-repeat center center;
-  background-size: cover;
+  /* background: url("../image/ad_bottom.png") no-repeat center center;
+  background-size: cover; */
 }
 .ad_mid_top img,
 .ad_mid_bottom img {
@@ -510,6 +510,14 @@ body.index .footer {
   float: left;
   font-weight: bold;
   padding-left:10px;
+}
+.trk_open_title a,
+.trk_open_title a:hover,
+.trk_open_title a:active,
+.trk_open_title a:visited,
+.trk_open_title a:focus
+ {
+  color: #2d2d2d;
 }
 .card_container .trk_open_arrow {
   display: block;

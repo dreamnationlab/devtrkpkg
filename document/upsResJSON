@@ -1,0 +1,153 @@
+{
+  "TrackResponse":{
+                  "Response":[{
+                                "TransactionReference":[{
+                                                            "CustomerContext":["Your Test Case Summary Description"]
+                                                       }],
+                                "ResponseStatusCode":["1"],
+                                "ResponseStatusDescription":["Success"]
+                             }],
+                  "Shipment":[
+                              {
+                                "Shipper":[{
+                                              "ShipperNumber":["30AV92"],
+                                              "Address":[{
+                                                            "AddressLine1":["10/F GOODMAN INTERLINK"],
+                                                            "City":["TSING YI"],
+                                                            "CountryCode":["HK"]
+                                                        }]
+                                          }],
+                                "ShipTo":[{
+                                              "Address":[{
+                                                            "City":["WANSAN-GU, JEONJU-SI"],
+                                                            "PostalCode":["55080"],
+                                                            "CountryCode":["KR"]
+                                                        }]
+                                          }],
+                                "ShipmentWeight":[{
+                                                    "UnitOfMeasurement":[{
+                                                                            "Code":["KGS"]
+                                                                        }],
+                                                    "Weight":["0.80"]
+                                                 }],
+                                "Service":[{
+                                              "Code":["065"],
+                                              "Description":["UPSWorldwideExpressSaver"]
+                                          }],
+                                "ReferenceNumber":[
+                                                    {
+                                                      "Code":["04"],
+                                                      "Value":["2004YF02018455"]
+                                                    },
+                                                    {
+                                                      "Code":["01"],
+                                                      "Value":["2004YF02018455"]
+                                                    },
+                                                    {
+                                                      "Code":["01"],
+                                                      "Value":["P170017835537"]
+                                                    },
+                                                    {
+                                                      "Code":["13"],
+                                                      "Value":["30AV923SFV4"]
+                                                    }
+                                                  ],
+                                "ShipmentIdentificationNumber":["1Z30AV920403398996"],
+                                "PickupDate":["20180426"],
+                                "ScheduledDeliveryDate":["20180430"],
+                                "Package":[
+                                            {
+                                              "TrackingNumber":["1Z30AV920403398996"],
+                                              "DeliveryIndicator":["Y"],
+                                              "DeliveryDate":["20180430"],
+                                              "Activity":[
+                                                          {
+                                                            "ActivityLocation":[{
+                                                                                  "Address":[{
+                                                                                                "City":["JEONJU"],
+                                                                                                "CountryCode":["KR"]
+                                                                                            }],
+                                                                                  "SignedForByName":["SONG WONKYUNG-J"]
+                                                                               }],
+                                                            "Status":[{
+                                                                        "StatusType":[{
+                                                                                        "Code":["D"],
+                                                                                        "Description":["Delivered"]
+                                                                                     }],
+                                                                        "StatusCode":[{
+                                                                                        "Code":["KB"]
+                                                                                     }]
+                                                                      }],
+                                                            "Date":["20180430"],
+                                                            "Time":["151000"]
+                                                          },
+                                                          {
+                                                            "ActivityLocation":[{
+                                                                                  "Address":[{
+                                                                                                "City":["Wansan-Gu, Jeonju-Si"],
+                                                                                                "CountryCode":["KR"]
+                                                                                            }]
+                                                                               }],
+                                                            "Status":[{
+                                                                        "StatusType":[{
+                                                                                        "Code":["I"],
+                                                                                        "Description":["Arrival Scan"]
+                                                                                      }],
+                                                                        "StatusCode":[{
+                                                                                        "Code":["AR"]
+                                                                                     }]
+                                                                     }],
+                                                            "Date":["20180430"],
+                                                            "Time":["073000"]
+                                                          },
+                                                          {
+                                                            "ActivityLocation":[{
+                                                                                  "Address":[{
+                                                                                              "City":["Incheon"],
+                                                                                              "CountryCode":["KR"]
+                                                                                            }]
+                                                                               }],
+                                                            "Status":[{
+                                                                        "StatusType":[{
+                                                                                        "Code":["I"],
+                                                                                        "Description":["Departure Scan"]
+                                                                                     }],
+                                                                        "StatusCode":[{
+                                                                                        "Code":["DP"]
+                                                                                     }]
+                                                                     }],
+                                                            "Date":["20180430"],
+                                                            "Time":["050000"]
+                                                          }
+                                                        ],
+                                               "PackageWeight":[{
+                                                                    "UnitOfMeasurement":[{
+                                                                                          "Code":["KGS"]
+                                                                                        }],
+                                                                    "Weight":["0.80"]
+                                                                }]
+                                            }]
+                                  }]
+                          }}
+
+
+//// 운송장 번호 오류  
+'{
+  "TrackResponse":{
+                    "Response":[{
+                                  "TransactionReference":[{
+                                                          "CustomerContext":["Your Test Case Summary Description"]
+                                                        }],
+                                  "ResponseStatusCode":["0"],
+                                  "ResponseStatusDescription":["Failure"],
+                                  "Error":[{
+                                            "ErrorSeverity":["Hard"],
+                                            "ErrorCode":["150022"],
+                                            "ErrorDescription":["Invalid tracking number"]
+                                          }]
+                                }]
+                  }}'
+
+
+
+{"TrackResponse":{"Response":[{"TransactionReference":[{"CustomerContext":["Your Test Case Summary Description"]}],"ResponseStatusCode":["1"],"ResponseStatusDescription":["Success"]}],"Shipment":[{"Shipper":[{"ShipperNumber":["1A48T9"],"Address":[{"AddressLine1":["25 FAIRMOUNT AVE"],"City":["EAST PROVIDENCE"],"StateProvinceCode":["RI"],"PostalCode":["029141701"],"CountryCode":["US"]}]}],"ShipTo":[{"Address":[{"City":["NORTH BERGEN"],"StateProvinceCode":["NJ"],"PostalCode":["07047"],"CountryCode":["US"]}]}],"ShipmentWeight":[{"UnitOfMeasurement":[{"Code":["LBS"]}],"Weight":["1.20"]}],"Service":[{"Code":["003"],"Description":["UPS Ground"]}],"ReferenceNumber":[{"Code":["01"],"Value":["LPRI0717249"]},{"Code":["01"],"Value":["SO2234606"]}],"ShipmentIdentificationNumber":["1Z1A48T90315691657"],"PickupDate":["20180705"],"ScheduledDeliveryDate":["20180706"],"Package":[{"TrackingNumber":["1Z1A48T90315691657"],"DeliveryIndicator":["Y"],"DeliveryDate":["20180706"],"Activity":[{"ActivityLocation":[{"Address":[{"City":["NORTH BERGEN"],"StateProvinceCode":["NJ"],"PostalCode":["07047"],"CountryCode":["US"]}],"Code":["PF"],"Description":["Inside Delivery"],"SignedForByName":["OSY"]}],"Status":[{"StatusType":[{"Code":["D"],"Description":["Delivered"]}],"StatusCode":[{"Code":["KB"]}]}],"Date":["20180706"],"Time":["133155"]},{"ActivityLocation":[{"Address":[{"City":["Secaucus"],"StateProvinceCode":["NJ"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Out For Delivery Today"]}],"StatusCode":[{"Code":["OT"]}]}],"Date":["20180706"],"Time":["085613"]},{"ActivityLocation":[{"Address":[{"City":["Secaucus"],"StateProvinceCode":["NJ"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Loaded on Delivery Vehicle"]}],"StatusCode":[{"Code":["OF"]}]}],"Date":["20180706"],"Time":["081203"]},{"ActivityLocation":[{"Address":[{"City":["Secaucus"],"StateProvinceCode":["NJ"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Destination Scan"]}],"StatusCode":[{"Code":["YP"]}]}],"Date":["20180706"],"Time":["073745"]},{"ActivityLocation":[{"Address":[{"City":["Secaucus"],"StateProvinceCode":["NJ"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Arrival Scan"]}],"StatusCode":[{"Code":["AR"]}]}],"Date":["20180706"],"Time":["061600"]},{"ActivityLocation":[{"Address":[{"City":["Stratford"],"StateProvinceCode":["CT"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Departure Scan"]}],"StatusCode":[{"Code":["DP"]}]}],"Date":["20180706"],"Time":["042600"]},{"ActivityLocation":[{"Address":[{"City":["Stratford"],"StateProvinceCode":["CT"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Arrival Scan"]}],"StatusCode":[{"Code":["AR"]}]}],"Date":["20180705"],"Time":["232400"]},{"ActivityLocation":[{"Address":[{"City":["Warwick"],"StateProvinceCode":["RI"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Departure Scan"]}],"StatusCode":[{"Code":["DP"]}]}],"Date":["20180705"],"Time":["204800"]},{"ActivityLocation":[{"Address":[{"City":["Warwick"],"StateProvinceCode":["RI"],"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["I"],"Description":["Origin Scan"]}],"StatusCode":[{"Code":["OR"]}]}],"Date":["20180705"],"Time":["175503"]},{"ActivityLocation":[{"Address":[{"CountryCode":["US"]}],"Description":["Inside Delivery"]}],"Status":[{"StatusType":[{"Code":["M"],"Description":["Order Processed: Ready for UPS"]}],"StatusCode":[{"Code":["MP"]}]}],"Date":["20180705"],"Time":["163508"]}],"PackageWeight":[{"UnitOfMeasurement":[{"Code":["LBS"]}],"Weight":["1.20"]}],"ReferenceNumber":[{"Code":["01"],"Value":["LPRI0717249"]},{"Code":["01"],"Value":["SO2234606"]}]}]}]}}'

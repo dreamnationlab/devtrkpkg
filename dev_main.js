@@ -19,6 +19,7 @@ var indexRouter = require('./routes/index');
 var trackingRouter = require('./routes/tracking');
 // static files
 app.use(express.static('public'));
+app.use('/node_modules', express.static(path.join(__dirname, '/node_modules')));
 // body-parser
 app.use(bodyParser.urlencoded({ extended: false }));
 // file list
