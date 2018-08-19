@@ -103,6 +103,8 @@ function checkSearch() {
     check = false;
   }
 
+  if(check) $("#load").show();
+
   return check;
 }
 
@@ -123,14 +125,14 @@ function removeCard(target) {
 }
 
 //클립보드 복사 (copy_linke, copy_result)
-function copyText(str) {  
+function copyText(str) {
   str = strReplaceAll((""+str), "<br>", "\n");
   var $temp = $("<textarea>");
   $("body").append($temp);
   $temp.val(str).select();
   document.execCommand("copy");
   $temp.remove();
-  alert("copy complete");
+  alert("Copied successfully, the text has been added to the clipboard");
 }
 //문자 치환
 function strReplaceAll(str, searchStr, replaceStr) {

@@ -27,7 +27,7 @@ router.get('/', function (req, res) {
                 <ul class="number_list">
                   <!-- <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum" value="9361289681090397739347" placeholder="Enter your Tranking Numbers" readonly /></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li> -->
                   <!-- 30개 제한 // 영어,숫자만(30) // 대문자변환 -->
-                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="" placeholder="Enter your Tranking Numbers" onkeyup="addNum(this);"/></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
+                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="" placeholder="ENTER TRACKING NUMBER. ADD WITH SPACEBAR" onkeyup="addNum(this);"/></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
 
                 </ul>
               </div>
@@ -42,11 +42,25 @@ router.get('/', function (req, res) {
       <div class="description_container container">
         <section class="description_section">
           <p class="description">
-            Now you can preview images* of your mail and manage your incoming packages on
-            one dashboard without entering tracking numbers. From the Informed Delivery ®
-            dashboard you can also sign up for text or email notifications, schedule delivery ale
-            rts, request redelivery, enter USPS Delivery Instructions™, and more.
+            Now you can Track pakages for all shipments. For now we provide USPS<sup>®</sup> UPS<sup>®</sup>
+            DHL<sup>®</sup> FedEx<sup>®</sup> tracking services. We're gonna provide more than now soon.
+            If you have any inconvenience or opinion, let us know by email down below.<br>
+            TrackingPKG<sup>®</sup> Universal package tracking service.
           </p>
+        </section>
+
+        <section class="carrier_section">
+          <div class="carrier_box">
+            <h2 class="title txt-c" title="Supported Carriers">
+              <img src="/image/carrier_tit.png" class="carriers_image" alt="Supported Carriers" /></a>
+            </h2>
+            <ul>
+              <li><img src="/image/package_big_ups.png" alt="UPS" /></li><!--
+              --><li><img src="/image/package_big_fedex.png" alt="FedEx" /></li><!--
+              --><li><img src="/image/package_big_dhl.png" alt="DHL" /></li><!--
+              --><li><img src="/image/package_big_usps.png" alt="USPS" /></li>
+            </ul>
+          </div>
         </section>
       </div>`);
 

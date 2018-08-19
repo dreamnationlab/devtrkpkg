@@ -36,6 +36,15 @@ router.post('/result', function(req, res){
   //운송장번호
   var trackingNums = post.trackingNums.split("|");
   console.log('after split',trackingNums);
+
+  var trim = function(trackingNums){
+    for(let i = 0, length = trackingNums.length; i < length; i++ ) {
+        trackingNums[i] = trackingNums[i].replace(/(^\s*)|(\s*$)/gi, "");
+    }
+  }
+  trim(trackingNums);
+
+  console.log('After trim', trackingNums);
   // 번호 순으로 검색 후 취합
   reqTracking.byNums(trackingNums, function(result){
     let parsingResult = {"data":result};
@@ -48,12 +57,10 @@ router.post('/result', function(req, res){
   });
 });
 
-// 중복코드 어쩔???? 
-router.get('/result/:number', function(req,res){
-  // var trackingNum = [];
-  // trackingNum[0] = path.parse(req.params.number).base;
-  var trackingNum = path.parse(req.params.number).base;
-  console.log('after split',trackingNum);
+// 중복코드 어쩔????
+router.get('/result/:number', function(req,res){  
+  var trackingNum = [];
+  trackingNum.push(path.parse(req.params.number).base);
   // 번호 순으로 검색 후 취합
   reqTracking.byNums(trackingNum, function(result){
     let parsingResult = {"data":result};

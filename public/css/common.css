@@ -164,7 +164,7 @@ select:-webkit-autofill {
 }
 .button_box .btn {
   color: #fff;
-  background: #fb6e00;
+  background: #30c0c2;
   font-weight: bold;
   font-size: 1.1em;
   line-height: 1.85;
@@ -173,7 +173,7 @@ select:-webkit-autofill {
   width: 100%;
   border-top-left-radius: 0;
   /*border-bottom-left-radius: 0;*/
-  box-shadow: 1px 1px 10px 3px #ec6700 inset;
+  box-shadow: 1px 1px 10px 3px #30abb0 inset;
 }
 
 .description {
@@ -182,6 +182,28 @@ select:-webkit-autofill {
   font-family: Arial;
   letter-spacing: -0.3px;
   color: #666;
+}
+
+.carrier_box .title {
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+.carrier_box ul {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+.carrier_box ul li {
+  display: inline-block;
+  margin: 0;
+  margin-left: 5px;
+}
+.carrier_box ul li:first-child {
+  margin-left: 0;
+}
+.carrier_box ul li img {
+  width: 67px;
+  height: 67px;
 }
 
 .footer {
@@ -582,3 +604,25 @@ body.index .footer {
 .txt-c {text-align: center !important;}
 .txt-l {text-align: left !important;}
 .txt-r {text-align: right !important;}
+
+/* loading */
+#load {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   background: url('../image/black_40.png') repeat;
+   z-index: 99;
+   text-align: center;
+}
+
+#load > img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+  margin-top: -32px;
+  margin-left: -32px;
+   z-index: 100;
+}
