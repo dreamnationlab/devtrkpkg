@@ -295,6 +295,23 @@
 
                                                             {
 
+{
+  "$":{
+        "xmlns:req":"http://www.dhl.com",
+        "xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:schemaLocation":"http://www.dhl.com track-err-res.xsd"
+      },
+  "Response":{
+              "ServiceHeader":{"MessageTime":"2018-08-19T09:26:06+01:00"},
+              "Status":{
+                        "ActionStatus":"Failure",
+                        "Condition":{
+                                    "ConditionCode":"100",
+                                    "ConditionData":" Error Validating incoming request XML\\n                    Password provided is wrong"
+                                    }
+                      }
+              }
+}
 
 ///// 운송장번호 자리수 넘어갈때
 <req:ShipmentTrackingErrorResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com track-err-res.xsd">
