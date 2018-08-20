@@ -60,7 +60,9 @@ router.get('/', function (req, res) {
             </ul>
           </div>
         </section>
-      </div>`);
+      </div>
+
+      `);
 
   res.send(html);
 });
