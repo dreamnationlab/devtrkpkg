@@ -12,17 +12,21 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "city-timezones": "^1.0.5",
     "compression": "^1.7.3",
+    "countries-and-timezones": "^1.0.1",
     "express": "^4.16.3",
     "helmet": "^3.13.0",
     "inherits": "^2.0.3",
     "jquery": "^3.3.1",
     "jsdom": "^11.12.0",
+    "moment-timezone": "^0.5.21",
     "mysql": "^2.16.0",
     "request": "^2.87.0",
     "sanitize-html": "^1.18.2",
     "soap": "^0.24.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "zipcode-to-timezone": "0.0.9"
   },
   "devDependencies": {},
   "description": ""

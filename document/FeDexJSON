@@ -986,7 +986,7 @@
                                                      ]}]}]}'
 
 
-/// 운송장 번호 형식이 틀렸거나 없는 번호일 때 
+/// 운송장 번호 형식이 틀렸거나 없는 번호일 때
 {
   "HighestSeverity":"SUCCESS",
   "Notifications":[
