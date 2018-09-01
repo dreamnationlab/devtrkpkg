@@ -9,6 +9,10 @@ var qs = require('querystring');
 var path = require('path');
 var sanitizeHtml = require('sanitize-html');
 
+// favicon
+var favicon = require('serve-favicon');
+app.use(favicon(__dirname + '/public/image/favicon.png'));
+
 // For security
 var helmet = require('helmet');
 app.use(helmet());
@@ -20,15 +24,17 @@ var trackingRouter = require('./routes/tracking');
 // static files
 app.use(express.static('public'));
 app.use('/node_modules', express.static(path.join(__dirname, '/node_modules')));
+
 // body-parser
 app.use(bodyParser.urlencoded({ extended: false }));
+
 // file list
-app.get('*', function(req, res, next){
-  fs.readdir('./data', function(error, filelist){
-    req.list = filelist;
-    next();
-  });
-});
+// app.get('*', function(req, res, next){
+//   fs.readdir('./data', function(error, filelist){
+//     req.list = filelist;
+//     next();
+//   });
+// });
 
 // use routes
 app.use('/', indexRouter);

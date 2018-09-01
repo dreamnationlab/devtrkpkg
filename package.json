@@ -24,6 +24,7 @@
     "mysql": "^2.16.0",
     "request": "^2.87.0",
     "sanitize-html": "^1.18.2",
+    "serve-favicon": "^2.5.0",
     "soap": "^0.24.0",
     "xml2js": "^0.4.19",
     "zipcode-to-timezone": "0.0.9"

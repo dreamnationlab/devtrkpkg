@@ -26,7 +26,7 @@ router.get('/', function (req, res) {
               <div class="search_values">
                 <ul class="number_list">
                   <!-- 30개 제한 // 영어,숫자만(30) // 대문자변환 -->
-                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="" placeholder="ENTER TRACKING NUMBER. ADD WITH SPACEBAR" onkeyup="addNum(this);"/></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
+                  <li><span class="numbering">1.</span><span class="tracking_num"><input type="text" class="" id="" name="trackingNum1" value="" maxlength="30" placeholder="ENTER TRACKING NUMBERS" onkeyup="addNum(this);"/></span><span class="del"><button type="button" onclick="deleteNum(this);">X</button></span></li>
                 </ul>
               </div>
             </div>

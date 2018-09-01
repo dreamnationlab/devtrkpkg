@@ -19,7 +19,7 @@ function addNum(target) {
       addList += "<span class=\"del\"><button type=\"button\" onclick=\"deleteNum(this);\">X</button></span></li>";
   // 엔터 키 눌렀을 때
   window.event.preventDefault();
-  if (window.event.keyCode === 32) {  ////////////////////////엔터키 일 경우 모바일에서 조작어려움 있음. '스페이스 바'로 변경.
+  if (window.event.keyCode === 13) {  ////////////////////////엔터키 일 경우 모바일에서 조작어려움 있음. '스페이스 바'로 변경.
     //event.preventDefault();
     if(!tg.val()) {
       alert("값을 입력 해 주세요.");

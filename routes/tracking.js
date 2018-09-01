@@ -51,7 +51,8 @@ router.post('/result', function(req, res){
 
   var trim = function(trackingNums){
     for(let i = 0, length = trackingNums.length; i < length; i++ ) {
-        trackingNums[i] = trackingNums[i].replace(/(^\s*)|(\s*$)/gi, "");
+        //trackingNums[i] = trackingNums[i].replace(/(^\s*)|(\s*$)/gi, "");
+        trackingNums[i] = trackingNums[i].replace(/(\s*)/g, "");
     }
   }
   //////////////////////////////////////////////////////////////////////////////
