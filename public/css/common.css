@@ -460,7 +460,7 @@ body.index .footer {
 .status_bar_wrap .status_bar {
   padding: 3px !important;
 }
-.status_bar_wrap .status_bar span {
+/* .status_bar_wrap .status_bar span {
   display: inline-block;
   width: 100%;
   height: 15px;
@@ -470,6 +470,36 @@ body.index .footer {
 }
 .status_bar_wrap .status_bar .status_o {
   background-image: url("../image/status_bar_delivered.png");
+}*/
+
+.status_bar_wrap .status_bar span {
+  display: inline-block;
+  height: 15px;
+}
+.status_bar_wrap .status_bar .status_f {
+  width: 4px;
+  background-image: url("../image/status_bar_none_front.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.status_bar_wrap .status_bar .status_m {
+  width: calc(100% - 8px);
+  background: #bebebe;
+}
+.status_bar_wrap .status_bar .status_t {
+  width: 4px;
+  background-image: url("../image/status_bar_none_tail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.status_bar_wrap .status_bar.status_o .status_f {
+  background-image: url("../image/status_bar_delivered_front.png");
+}
+.status_bar_wrap .status_bar.status_o .status_m {
+  background: #ff7000;
+}
+.status_bar_wrap .status_bar.status_o .status_t {
+  background-image: url("../image/status_bar_delivered_tail.png");
 }
 
 .status_bar_truck {
