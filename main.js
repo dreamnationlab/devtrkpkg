@@ -57,6 +57,13 @@ app.get('/sitemap.xml', function(req, res) {
   res.send( sitemap.toString() );
 });
 
+// robots.txt
+app.get('/robots.txt', function(req, res){
+  fs.readdir('/robots.txt', function(error, file){
+      res.send(file);
+    });
+});
+
 // 404
 app.use(function(req, res, next) {
   res.status(404).send('sorry cant find that!')
